@@ -15,7 +15,7 @@ const Index = ({ data }) => (
       <PostListing postEdges={data.allMarkdownRemark.edges} />
     </main>
   </Layout>
-)
+);
 
 export default Index;
 

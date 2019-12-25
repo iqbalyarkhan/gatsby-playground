@@ -137,7 +137,7 @@ Next, you need to add the following to your `gatsby-config.js` file. Make sure t
         },
       ],
     },
-  },
+  }
 ```
 
 Next, check to see if you have a `gatsby-browser.js` file. If not, create it inside the root folder of your project (at the same level as your `gatsby-config.js` file). Add this to that file:
@@ -151,6 +151,6 @@ require("prismjs/plugins/line-numbers/prism-line-numbers.css");
 
 We're now ready to use our code blocks. To do so you'd have to use 3 back ticks at the start of your code block, choose the language you're about to enter (c++, js, css etc) and add the option of `{numberLines: true}` to show line numbers. Optionally, you can also give a starting line number if you don't want it to begin at line 1 by doing this: `{numberLines: 13}`.
 
-If you're interested, I'm using [prism-okadia](https://github.com/ocodia/okaidia-prismjs-theme/blob/master/okaidia.css) for this blog.
+If you're interested, I'm using [prism-okadia](https://github.com/ocodia/okaidia-prismjs-theme/blob/master/okaidia.css) for this blog. You can find more prism themes [here](https://github.com/PrismJS/prism-themes/tree/master/themes).
 
 Happy coding!

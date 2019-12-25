@@ -40,8 +40,4 @@ if (config.pathPrefix === "/") {
 if (config.siteUrl.substr(-1) === "/")
   config.siteUrl = config.siteUrl.slice(0, -1);
 
-// Make sure siteRss has a starting forward slash
-// if (config.siteRss && config.siteRss[0] !== "/")
-//   config.siteRss = `/${config.siteRss}`;
-
 module.exports = config;
