@@ -60,3 +60,12 @@ Coniuge contraxit in flagrantis et sacra Paridis pietas nymphas dextra et aequor
 erat insignia virginei medi. Acervo ferrum! Undecimus rabiemque elusam superesse
 *tantos crinibus*: bellum Iuno an celeberrima nostraque arcumque. Sive quod
 inter Cynthia est gemitu crimina sis, et preces cuncta tamen?
+
+| Hello | World | Third Column |
+|-------|------ | ------------
+| Foo   | Bar   | Baaz         |
+
+```cpp{numberLines: true}
+cout << "Hello world!" << endl;
+cout << "Yes this is a test line" << endl;
+```
